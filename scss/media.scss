@@ -1,0 +1,46 @@
+@use "base" as *;
+@media screen and (max-width:991.98px){
+  nav ul{
+    display: none;
+  }
+  .hamburger{
+    display: block;
+  }
+    .testimonial-title{
+      font-size: 1rem;
+    }
+
+  
+
+@media screen and (max-width:575.98px){
+ h1{
+  font-size: 2rem;
+ }
+ #features{
+  .features-cont{
+    flex-direction: column;
+    .feature{
+      width: 100%;
+    }
+   }
+
+ }
+ #testimonial{
+  .testimonial-cont{
+    flex-direction: column;
+    img{
+      width: 50%;
+      height: auto;
+      margin: auto;
+    }
+    .testimonial-text{
+      margin: auto;
+      text-align: center;
+
+    }
+  }
+ }
+
+}   
+   
+}
