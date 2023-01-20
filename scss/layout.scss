@@ -15,12 +15,17 @@ nav{
     ul{
         display: inline-flex;
         list-style: none;
-    }
-    a{
+          a:active{
+            background-color: $color-second;
+            color: $color-accent;
+          }
+      }
+      a{
         text-decoration: none;
         color: inherit;   
-        padding: 10px 15px;
+        padding: 10px 15px; 
     }
+    
     .icons{
       display: flex;
       flex-direction: row;
